@@ -1,0 +1,167 @@
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #100d18;
+    color: #e8e3f0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+.navbar {
+    background-color: #09070e;
+    border-bottom: 2px solid #7135a8;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: #c58aff !important;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #e8e3f0 !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #c58aff !important;
+}
+
+/* APRESENTAÇÃO PRINCIPAL */
+
+.hero {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #180e27, #35134d, #100d18);
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    color: #d6a2ff;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+/* CONTEÚDO */
+
+.conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+section h2 {
+    color: #c58aff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-left: 4px solid #914bd1;
+    padding-left: 15px;
+}
+
+section p {
+    color: #d0c8dc;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* DESTAQUES E CARDS */
+
+.destaques .card {
+    background-color: #1c1727;
+    border: 1px solid #63358a;
+    border-radius: 12px;
+    color: #e8e3f0;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.destaques .card:hover {
+    transform: translateY(-5px);
+    border-color: #c58aff;
+}
+
+.card-title {
+    color: #d6a2ff;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #d0c8dc;
+}
+
+/* BOTÕES */
+
+.btn-geek {
+    background-color: #7135a8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-geek:hover {
+    background-color: #914bd1;
+    color: white;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #09070e;
+    border-top: 2px solid #7135a8;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+footer p {
+    color: #aaa0b8;
+    margin-bottom: 5px;
+}
+
+/* RESPONSIVIDADE PARA CELULARES */
+
+@media (max-width: 576px) {
+
+    .hero {
+        min-height: 350px;
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
